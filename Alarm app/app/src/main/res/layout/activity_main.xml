@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    >
+<ImageView
+    android:layout_width="250dp"
+    android:layout_height="250dp"
+    android:id="@+id/Alarm_Image"
+    android:src="@drawable/clock"
+    android:layout_gravity="center_horizontal"
+    />
+    <TextView
+        android:layout_width="wrap_content"
+        android:id="@+id/SelectedTime"
+        android:layout_height="wrap_content"
+        android:text="8 : 45 PM"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        />
+<Button
+    android:layout_width="250dp"
+    android:layout_height="wrap_content"
+    android:id="@+id/Select_Time"
+    android:text="Select Time"
+    android:textSize="20dp"
+    android:textStyle="bold"
+    android:layout_gravity="center_horizontal"
+    android:layout_marginTop="50dp"
+    android:layout_marginBottom="30dp"
+    />
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/Set_Alarm"
+        android:text="Set Alarm"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="30dp"
+
+        />
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/Cancel_Alarm"
+        android:text="Cancel Alarm"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        />
+</LinearLayout>
